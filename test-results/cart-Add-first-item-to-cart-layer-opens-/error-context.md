@@ -1,0 +1,231 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - link [ref=e8] [cursor=pointer]:
+      - /url: http://www.automationpractice.pl/
+    - generic [ref=e11]:
+      - navigation:
+        - link "Sign in" [ref=e13] [cursor=pointer]:
+          - /url: http://www.automationpractice.pl/index.php?controller=my-account
+        - link "Contact us" [ref=e15] [cursor=pointer]:
+          - /url: http://www.automationpractice.pl/index.php?controller=contact
+        - generic [ref=e16]:
+          - generic [ref=e17]: 
+          - text: "Call us now:"
+          - strong [ref=e18]: 0123-456-789
+    - generic [ref=e21]:
+      - link "My Shop" [ref=e23] [cursor=pointer]:
+        - /url: http://www.automationpractice.pl/
+        - img "My Shop" [ref=e24] [cursor=pointer]
+      - generic [ref=e26]:
+        - textbox "Search" [ref=e27]
+        - button "" [ref=e28] [cursor=pointer]
+      - generic [ref=e30]:
+        - link " Cart (empty) " [ref=e31] [cursor=pointer]:
+          - /url: http://www.automationpractice.pl/index.php?controller=order
+          - text: 
+          - generic [ref=e32] [cursor=pointer]: Cart
+          - generic [ref=e33] [cursor=pointer]: (empty)
+          - text: 
+        - text: 
+      - text:    
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - link "Women" [ref=e37] [cursor=pointer]:
+            - /url: http://www.automationpractice.pl/index.php?id_category=3&controller=category
+          - text:     
+        - listitem [ref=e38]:
+          - link "Dresses" [ref=e39] [cursor=pointer]:
+            - /url: http://www.automationpractice.pl/index.php?id_category=8&controller=category
+        - listitem [ref=e40]:
+          - link "T-shirts" [ref=e41] [cursor=pointer]:
+            - /url: http://www.automationpractice.pl/index.php?id_category=5&controller=category
+        - listitem [ref=e42]:
+          - link "Blog" [ref=e43] [cursor=pointer]:
+            - /url: http://www.prestashop.com/blog/
+  - generic [ref=e45]:
+    - generic [ref=e46]:
+      - link ".  ." [ref=e47] [cursor=pointer]:
+        - /url: http://www.automationpractice.pl/
+        - text: .
+        - generic [ref=e48] [cursor=pointer]: 
+        - text: .
+      - generic [ref=e49]: ">"
+      - generic [ref=e50]:
+        - link ". Women ." [ref=e52] [cursor=pointer]:
+          - /url: http://www.automationpractice.pl/index.php?id_category=3&controller=category
+          - text: .
+          - generic [ref=e53] [cursor=pointer]: Women
+          - text: .
+        - generic [ref=e54]: ">"
+        - link ". Dresses ." [ref=e56] [cursor=pointer]:
+          - /url: http://www.automationpractice.pl/index.php?id_category=8&controller=category
+          - text: .
+          - generic [ref=e57] [cursor=pointer]: Dresses
+          - text: .
+        - generic [ref=e58]: ">"
+        - text: Printed Dress
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e67]:
+          - generic [ref=e69] [cursor=pointer]:
+            - img "Printed Dress" [ref=e70] [cursor=pointer]
+            - generic [ref=e71] [cursor=pointer]: View larger
+          - list [ref=e74]:
+            - listitem [ref=e75] [cursor=pointer]:
+              - link "Printed Dress" [ref=e76] [cursor=pointer]:
+                - /url: http://www.automationpractice.pl/img/p/8/8-thickbox_default.jpg
+                - img "Printed Dress" [ref=e77] [cursor=pointer]
+            - listitem [ref=e78] [cursor=pointer]:
+              - link "Printed Dress" [ref=e79] [cursor=pointer]:
+                - /url: http://www.automationpractice.pl/img/p/9/9-thickbox_default.jpg
+                - img "Printed Dress" [ref=e80] [cursor=pointer]
+          - paragraph [ref=e81]: 
+        - generic [ref=e82]:
+          - heading "Printed Dress" [level=1] [ref=e83]
+          - paragraph [ref=e84]:
+            - generic [ref=e85]: "Reference:"
+            - generic [ref=e86]: demo_3
+          - paragraph [ref=e87]:
+            - generic [ref=e88]: "Condition:"
+            - generic [ref=e89]: New product
+          - paragraph [ref=e92]: 100% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.
+          - paragraph [ref=e93]:
+            - generic [ref=e94]: This product is no longer in stock
+          - paragraph [ref=e95]:
+            - button " Tweet" [ref=e96] [cursor=pointer]:
+              - generic [ref=e97] [cursor=pointer]: 
+              - text: Tweet
+            - button " Share" [ref=e98] [cursor=pointer]:
+              - generic [ref=e99] [cursor=pointer]: 
+              - text: Share
+            - button " Google+" [ref=e100] [cursor=pointer]:
+              - generic [ref=e101] [cursor=pointer]: 
+              - text: Google+
+            - button " Pinterest" [ref=e102] [cursor=pointer]:
+              - generic [ref=e103] [cursor=pointer]: 
+              - text: Pinterest
+          - list [ref=e104]:
+            - listitem [ref=e105]:
+              - link " Send to a friend" [ref=e106] [cursor=pointer]:
+                - /url: "#send_friend_form"
+              - text: 
+            - listitem [ref=e107]:
+              - link " Print" [ref=e108] [cursor=pointer]:
+                - /url: javascript:print();
+        - generic [ref=e111]:
+          - paragraph [ref=e114]:
+            - generic [ref=e115]: $26
+          - generic [ref=e116]:
+            - text:  
+            - generic [ref=e117]:
+              - group [ref=e118]:
+                - generic [ref=e119]: Size
+                - generic [ref=e121]:
+                  - generic [ref=e122] [cursor=pointer]: S
+                  - combobox "Size" [ref=e123]:
+                    - option "S" [selected]
+                    - option "M"
+                    - option "L"
+              - group [ref=e124]:
+                - generic [ref=e125]: Color
+                - list [ref=e127]:
+                  - listitem [ref=e128]:
+                    - link "Orange" [ref=e129] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=3&controller=product
+          - generic [ref=e130]:
+            - text: 
+            - generic [ref=e132]:
+              - heading [level=5]
+      - generic [ref=e133]:
+        - heading "Data sheet" [level=3] [ref=e134]
+        - table [ref=e135]:
+          - rowgroup [ref=e136]:
+            - row "Compositions Cotton" [ref=e137]:
+              - cell "Compositions" [ref=e138]
+              - cell "Cotton" [ref=e139]
+            - row "Styles Girly" [ref=e140]:
+              - cell "Styles" [ref=e141]
+              - cell "Girly" [ref=e142]
+            - row "Properties Colorful Dress" [ref=e143]:
+              - cell "Properties" [ref=e144]
+              - cell "Colorful Dress" [ref=e145]
+      - generic [ref=e146]:
+        - heading "More info" [level=3] [ref=e147]
+        - paragraph [ref=e149]: Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which has since evolved into a full ready-to-wear collection in which every item is a vital part of a woman's wardrobe. The result? Cool, easy, chic looks with youthful elegance and unmistakable signature style. All the beautiful pieces are made in Italy and manufactured with the greatest attention. Now Fashion extends to a range of accessories including shoes, hats, belts and more!
+  - contentinfo [ref=e152]:
+    - generic [ref=e153]:
+      - generic [ref=e154]:
+        - heading "Newsletter" [level=4] [ref=e155] [cursor=pointer]
+        - generic [ref=e158]:
+          - textbox [ref=e159]: Enter your e-mail
+          - button "" [ref=e160] [cursor=pointer]
+      - generic [ref=e161]:
+        - list [ref=e162]:
+          - listitem [ref=e163]:
+            - link "" [ref=e164] [cursor=pointer]:
+              - /url: http://www.facebook.com/prestashop
+          - listitem [ref=e165]:
+            - link "" [ref=e166] [cursor=pointer]:
+              - /url: http://www.twitter.com/prestashop
+          - listitem [ref=e167]:
+            - link "" [ref=e168] [cursor=pointer]:
+              - /url: http://www.prestashop.com/blog/en/feed/
+        - heading "Follow us" [level=4] [ref=e169] [cursor=pointer]
+      - generic [ref=e171]:
+        - heading "Categories" [level=4] [ref=e172] [cursor=pointer]
+        - list [ref=e175]:
+          - listitem [ref=e176]:
+            - link "Women" [ref=e177] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?id_category=3&controller=category
+      - generic [ref=e178]:
+        - heading "Information" [level=4] [ref=e179] [cursor=pointer]
+        - list [ref=e180]:
+          - listitem [ref=e181]:
+            - link "Our stores" [ref=e182] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=stores
+          - listitem [ref=e183]:
+            - link "Terms and conditions of use" [ref=e184] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?id_cms=3&controller=cms
+          - listitem [ref=e185]:
+            - link "About us" [ref=e186] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?id_cms=4&controller=cms
+      - generic [ref=e188]:
+        - text: © 2014
+        - link "Ecommerce software by PrestaShop™" [ref=e189] [cursor=pointer]:
+          - /url: http://www.prestashop.com
+      - generic [ref=e190]:
+        - heading "My account" [level=4] [ref=e191] [cursor=pointer]:
+          - link "My account" [ref=e192] [cursor=pointer]:
+            - /url: http://www.automationpractice.pl/index.php?controller=my-account
+        - list [ref=e194]:
+          - listitem [ref=e195]:
+            - link "My orders" [ref=e196] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=history
+          - listitem [ref=e197]:
+            - link "My credit slips" [ref=e198] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=order-slip
+          - listitem [ref=e199]:
+            - link "My addresses" [ref=e200] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=addresses
+          - listitem [ref=e201]:
+            - link "My personal info" [ref=e202] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=identity
+      - generic [ref=e204]:
+        - heading "Store Information" [level=4] [ref=e205] [cursor=pointer]
+        - list [ref=e206]:
+          - listitem [ref=e207]:
+            - generic [ref=e208]: 
+            - text: My Company, 42 avenue des Champs Elysées 75000 Paris France
+          - listitem [ref=e209]:
+            - generic [ref=e210]: 
+            - text: "Call us now:"
+            - generic [ref=e211]: 0123-456-789
+          - listitem [ref=e212]:
+            - generic [ref=e213]: 
+            - text: "Email:"
+            - link "sales@yourcompany.com" [ref=e215] [cursor=pointer]:
+              - /url: mailto:%73%61%6c%65%73@%79%6f%75%72%63%6f%6d%70%61%6e%79.%63%6f%6d
+```

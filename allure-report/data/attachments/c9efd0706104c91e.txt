@@ -1,0 +1,167 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - link [ref=e8] [cursor=pointer]:
+      - /url: http://www.automationpractice.pl/
+    - generic [ref=e11]:
+      - navigation:
+        - link "Sign in" [ref=e13] [cursor=pointer]:
+          - /url: http://www.automationpractice.pl/index.php?controller=my-account
+        - link "Contact us" [ref=e15] [cursor=pointer]:
+          - /url: http://www.automationpractice.pl/index.php?controller=contact
+        - generic [ref=e16]:
+          - generic [ref=e17]: 
+          - text: "Call us now:"
+          - strong [ref=e18]: 0123-456-789
+    - generic [ref=e21]:
+      - link "My Shop" [ref=e23] [cursor=pointer]:
+        - /url: http://www.automationpractice.pl/
+        - img "My Shop" [ref=e24] [cursor=pointer]
+      - generic [ref=e26]:
+        - textbox "Search" [ref=e27]
+        - button "" [ref=e28] [cursor=pointer]
+      - generic [ref=e30]:
+        - link " Cart (empty) " [ref=e31] [cursor=pointer]:
+          - /url: http://www.automationpractice.pl/index.php?controller=order
+          - text: 
+          - generic [ref=e32] [cursor=pointer]: Cart
+          - generic [ref=e33] [cursor=pointer]: (empty)
+          - text: 
+        - text: 
+      - text:    
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - link "Women" [ref=e37] [cursor=pointer]:
+            - /url: http://www.automationpractice.pl/index.php?id_category=3&controller=category
+          - text:     
+        - listitem [ref=e38]:
+          - link "Dresses" [ref=e39] [cursor=pointer]:
+            - /url: http://www.automationpractice.pl/index.php?id_category=8&controller=category
+        - listitem [ref=e40]:
+          - link "T-shirts" [ref=e41] [cursor=pointer]:
+            - /url: http://www.automationpractice.pl/index.php?id_category=5&controller=category
+        - listitem [ref=e42]:
+          - link "Blog" [ref=e43] [cursor=pointer]:
+            - /url: http://www.prestashop.com/blog/
+  - generic [ref=e45]:
+    - generic [ref=e46]:
+      - link ".  ." [ref=e47] [cursor=pointer]:
+        - /url: http://www.automationpractice.pl/
+        - text: .
+        - generic [ref=e48] [cursor=pointer]: 
+        - text: .
+      - generic [ref=e49]: ">"
+      - text: Authentication
+    - generic [ref=e53]:
+      - heading "Authentication" [level=1] [ref=e54]
+      - generic [ref=e55]:
+        - text: 
+        - paragraph [ref=e56]: There is 1 error
+        - list [ref=e57]:
+          - listitem [ref=e58]: Authentication failed.
+      - generic [ref=e59]:
+        - generic [ref=e61]:
+          - heading "Create an account" [level=3] [ref=e62]
+          - generic [ref=e63]:
+            - paragraph [ref=e64]: Please enter your email address to create an account.
+            - text: 
+            - generic [ref=e65]:
+              - generic [ref=e66]: Email address
+              - textbox "Email address" [ref=e67]
+            - button " Create an account" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70] [cursor=pointer]:
+                - generic [ref=e71] [cursor=pointer]: 
+                - text: Create an account
+        - generic [ref=e73]:
+          - heading "Already registered?" [level=3] [ref=e74]
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - generic [ref=e77]: Email address
+              - textbox "Email address" [ref=e78]: wrong@example.com
+            - generic [ref=e79]:
+              - generic [ref=e80]: Password
+              - textbox "Password" [ref=e81]: invalidpass
+            - paragraph [ref=e82]:
+              - link "Forgot your password?" [ref=e83] [cursor=pointer]:
+                - /url: http://www.automationpractice.pl/index.php?controller=password
+            - paragraph [ref=e84]:
+              - button " Sign in" [ref=e85] [cursor=pointer]:
+                - generic [ref=e86] [cursor=pointer]:
+                  - generic [ref=e87] [cursor=pointer]: 
+                  - text: Sign in
+  - contentinfo [ref=e89]:
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - heading "Newsletter" [level=4] [ref=e92] [cursor=pointer]
+        - generic [ref=e95]:
+          - textbox [ref=e96]: Enter your e-mail
+          - button "" [ref=e97] [cursor=pointer]
+      - generic [ref=e98]:
+        - list [ref=e99]:
+          - listitem [ref=e100]:
+            - link "" [ref=e101] [cursor=pointer]:
+              - /url: http://www.facebook.com/prestashop
+          - listitem [ref=e102]:
+            - link "" [ref=e103] [cursor=pointer]:
+              - /url: http://www.twitter.com/prestashop
+          - listitem [ref=e104]:
+            - link "" [ref=e105] [cursor=pointer]:
+              - /url: http://www.prestashop.com/blog/en/feed/
+        - heading "Follow us" [level=4] [ref=e106] [cursor=pointer]
+      - generic [ref=e108]:
+        - heading "Categories" [level=4] [ref=e109] [cursor=pointer]
+        - list [ref=e112]:
+          - listitem [ref=e113]:
+            - link "Women" [ref=e114] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?id_category=3&controller=category
+      - generic [ref=e115]:
+        - heading "Information" [level=4] [ref=e116] [cursor=pointer]
+        - list [ref=e117]:
+          - listitem [ref=e118]:
+            - link "Our stores" [ref=e119] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=stores
+          - listitem [ref=e120]:
+            - link "Terms and conditions of use" [ref=e121] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?id_cms=3&controller=cms
+          - listitem [ref=e122]:
+            - link "About us" [ref=e123] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?id_cms=4&controller=cms
+      - generic [ref=e125]:
+        - text: © 2014
+        - link "Ecommerce software by PrestaShop™" [ref=e126] [cursor=pointer]:
+          - /url: http://www.prestashop.com
+      - generic [ref=e127]:
+        - heading "My account" [level=4] [ref=e128] [cursor=pointer]:
+          - link "My account" [ref=e129] [cursor=pointer]:
+            - /url: http://www.automationpractice.pl/index.php?controller=my-account
+        - list [ref=e131]:
+          - listitem [ref=e132]:
+            - link "My orders" [ref=e133] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=history
+          - listitem [ref=e134]:
+            - link "My credit slips" [ref=e135] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=order-slip
+          - listitem [ref=e136]:
+            - link "My addresses" [ref=e137] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=addresses
+          - listitem [ref=e138]:
+            - link "My personal info" [ref=e139] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=identity
+      - generic [ref=e141]:
+        - heading "Store Information" [level=4] [ref=e142] [cursor=pointer]
+        - list [ref=e143]:
+          - listitem [ref=e144]:
+            - generic [ref=e145]: 
+            - text: My Company, 42 avenue des Champs Elysées 75000 Paris France
+          - listitem [ref=e146]:
+            - generic [ref=e147]: 
+            - text: "Call us now:"
+            - generic [ref=e148]: 0123-456-789
+          - listitem [ref=e149]:
+            - generic [ref=e150]: 
+            - text: "Email:"
+            - link "sales@yourcompany.com" [ref=e152] [cursor=pointer]:
+              - /url: mailto:%73%61%6c%65%73@%79%6f%75%72%63%6f%6d%70%61%6e%79.%63%6f%6d
+```

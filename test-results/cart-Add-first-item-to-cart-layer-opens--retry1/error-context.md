@@ -1,0 +1,502 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - link [ref=e8] [cursor=pointer]:
+      - /url: http://www.automationpractice.pl/
+    - generic [ref=e11]:
+      - navigation:
+        - link "Sign in" [ref=e13] [cursor=pointer]:
+          - /url: http://www.automationpractice.pl/index.php?controller=my-account
+        - link "Contact us" [ref=e15] [cursor=pointer]:
+          - /url: http://www.automationpractice.pl/index.php?controller=contact
+        - generic [ref=e16]:
+          - generic [ref=e17]: 
+          - text: "Call us now:"
+          - strong [ref=e18]: 0123-456-789
+    - generic [ref=e21]:
+      - link "My Shop" [ref=e23] [cursor=pointer]:
+        - /url: http://www.automationpractice.pl/
+        - img "My Shop" [ref=e24] [cursor=pointer]
+      - generic [ref=e26]:
+        - textbox "Search" [ref=e27]: dress
+        - button "" [ref=e28] [cursor=pointer]
+      - generic [ref=e30]:
+        - link " Cart (empty) " [ref=e31] [cursor=pointer]:
+          - /url: http://www.automationpractice.pl/index.php?controller=order
+          - text: 
+          - generic [ref=e32] [cursor=pointer]: Cart
+          - generic [ref=e33] [cursor=pointer]: (empty)
+          - text: 
+        - text: 
+      - text:    
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - link "Women" [ref=e37] [cursor=pointer]:
+            - /url: http://www.automationpractice.pl/index.php?id_category=3&controller=category
+          - text:     
+        - listitem [ref=e38]:
+          - link "Dresses" [ref=e39] [cursor=pointer]:
+            - /url: http://www.automationpractice.pl/index.php?id_category=8&controller=category
+        - listitem [ref=e40]:
+          - link "T-shirts" [ref=e41] [cursor=pointer]:
+            - /url: http://www.automationpractice.pl/index.php?id_category=5&controller=category
+        - listitem [ref=e42]:
+          - link "Blog" [ref=e43] [cursor=pointer]:
+            - /url: http://www.prestashop.com/blog/
+  - generic [ref=e45]:
+    - generic [ref=e46]:
+      - link ".  ." [ref=e47] [cursor=pointer]:
+        - /url: http://www.automationpractice.pl/
+        - text: .
+        - generic [ref=e48] [cursor=pointer]: 
+        - text: .
+      - generic [ref=e49]: ">"
+      - text: Search
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - heading "Top sellers" [level=4] [ref=e55]:
+            - link "Top sellers" [ref=e56] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=best-sales
+          - generic [ref=e57]:
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link [ref=e60] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_product=2&controller=product
+                - generic [ref=e61]:
+                  - heading "Blouse" [level=5] [ref=e62]:
+                    - link "Blouse" [ref=e63] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=2&controller=product
+                  - paragraph [ref=e64]: Short sleeved blouse with feminine draped sleeve detail.
+                  - generic [ref=e66]: $27
+              - listitem [ref=e67]:
+                - link [ref=e68] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_product=1&controller=product
+                - generic [ref=e69]:
+                  - heading "Faded Short Sleeve T-shirts" [level=5] [ref=e70]:
+                    - link "Faded Short Sleeve T-shirts" [ref=e71] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=1&controller=product
+                  - paragraph [ref=e72]: Faded short sleeve t-shirt with high neckline. Soft and stretchy...
+                  - generic [ref=e74]: $17
+              - listitem [ref=e75]:
+                - link [ref=e76] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_product=3&controller=product
+                - generic [ref=e77]:
+                  - heading "Printed Dress" [level=5] [ref=e78]:
+                    - link "Printed Dress" [ref=e79] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=3&controller=product
+                  - paragraph [ref=e80]: 100% cotton double printed dress. Black and white striped top and orange...
+                  - generic [ref=e82]: $26
+              - listitem [ref=e83]:
+                - link [ref=e84] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_product=6&controller=product
+                - generic [ref=e85]:
+                  - heading "Printed Summer Dress" [level=5] [ref=e86]:
+                    - link "Printed Summer Dress" [ref=e87] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=6&controller=product
+                  - paragraph [ref=e88]: Sleeveless knee-length chiffon dress. V-neckline with elastic under the...
+                  - generic [ref=e90]: $31
+              - listitem [ref=e91]:
+                - link [ref=e92] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_product=7&controller=product
+                - generic [ref=e93]:
+                  - heading "Printed Chiffon Dress" [level=5] [ref=e94]:
+                    - link "Printed Chiffon Dress" [ref=e95] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=7&controller=product
+                  - paragraph [ref=e96]: Printed chiffon knee length dress with tank straps. Deep v-neckline.
+                  - generic [ref=e98]: $16
+              - listitem [ref=e99]:
+                - link [ref=e100] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_product=5&controller=product
+                - generic [ref=e101]:
+                  - heading "Printed Summer Dress" [level=5] [ref=e102]:
+                    - link "Printed Summer Dress" [ref=e103] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=5&controller=product
+                  - paragraph [ref=e104]: Long printed dress with thin adjustable straps. V-neckline and wiring...
+                  - generic [ref=e106]: $29
+            - link "All best sellers " [ref=e108] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=best-sales
+              - generic [ref=e109] [cursor=pointer]:
+                - text: All best sellers
+                - generic [ref=e110] [cursor=pointer]: 
+        - generic [ref=e111]:
+          - heading "Categories" [level=2] [ref=e112]
+          - list [ref=e114]:
+            - listitem [ref=e115]:
+              - generic [ref=e116] [cursor=pointer]: 
+              - link "Women" [ref=e117] [cursor=pointer]:
+                - /url: http://www.automationpractice.pl/index.php?id_category=3&controller=category
+              - text:         
+        - generic [ref=e118]:
+          - paragraph [ref=e119]:
+            - link "Information" [ref=e120] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?id_cms_category=1&controller=cms
+          - list [ref=e122]:
+            - listitem [ref=e123]:
+              - link " Delivery" [ref=e124] [cursor=pointer]:
+                - /url: http://www.automationpractice.pl/index.php?id_cms=1&controller=cms
+            - listitem [ref=e125]:
+              - link " Legal Notice" [ref=e126] [cursor=pointer]:
+                - /url: http://www.automationpractice.pl/index.php?id_cms=2&controller=cms
+            - listitem [ref=e127]:
+              - link " Terms and conditions of use" [ref=e128] [cursor=pointer]:
+                - /url: http://www.automationpractice.pl/index.php?id_cms=3&controller=cms
+            - listitem [ref=e129]:
+              - link " About us" [ref=e130] [cursor=pointer]:
+                - /url: http://www.automationpractice.pl/index.php?id_cms=4&controller=cms
+            - listitem [ref=e131]:
+              - link " Secure payment" [ref=e132] [cursor=pointer]:
+                - /url: http://www.automationpractice.pl/index.php?id_cms=5&controller=cms
+            - listitem [ref=e133]:
+              - link " Our stores" [ref=e134] [cursor=pointer]:
+                - /url: http://www.automationpractice.pl/index.php?controller=stores
+        - generic [ref=e135]:
+          - paragraph [ref=e136]:
+            - link "Manufacturers" [ref=e137] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=manufacturer
+          - generic [ref=e138]:
+            - list [ref=e139]:
+              - listitem [ref=e140]:
+                - link " Fashion Manufacturer" [ref=e141] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_manufacturer=1&controller=manufacturer
+            - generic [ref=e144]:
+              - generic [ref=e145] [cursor=pointer]: All manufacturers
+              - combobox [ref=e146]:
+                - option "All manufacturers" [selected]
+                - option "Fashion Manufacturer"
+        - generic [ref=e147]:
+          - paragraph [ref=e148]:
+            - link "Specials" [ref=e149] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=prices-drop
+          - generic [ref=e150]:
+            - list [ref=e151]:
+              - listitem [ref=e152]:
+                - link "Printed Chiffon Dress" [ref=e153] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_product=7&controller=product
+                  - img "Printed Chiffon Dress" [ref=e154] [cursor=pointer]
+                - generic [ref=e155]:
+                  - heading "Printed Chiffon Dress" [level=5] [ref=e156]:
+                    - link "Printed Chiffon Dress" [ref=e157] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=7&controller=product
+                  - paragraph [ref=e158]: Printed chiffon knee length dress...
+                  - generic [ref=e159]:
+                    - generic [ref=e160]: $16
+                    - generic [ref=e161]: "-20%"
+                    - generic [ref=e162]: $21
+            - link "All specials " [ref=e164] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=prices-drop
+              - generic [ref=e165] [cursor=pointer]:
+                - text: All specials
+                - generic [ref=e166] [cursor=pointer]: 
+        - generic [ref=e167]:
+          - paragraph [ref=e168]:
+            - link "Our stores" [ref=e169] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=stores
+          - generic [ref=e170]:
+            - paragraph [ref=e171]:
+              - link "Our stores" [ref=e172] [cursor=pointer]:
+                - /url: http://www.automationpractice.pl/index.php?controller=stores
+                - img "Our stores" [ref=e173] [cursor=pointer]
+            - link "Discover our stores " [ref=e175] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=stores
+              - generic [ref=e176] [cursor=pointer]:
+                - text: Discover our stores
+                - generic [ref=e177] [cursor=pointer]: 
+        - generic [ref=e178]:
+          - paragraph [ref=e179]:
+            - link "Suppliers" [ref=e180] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=supplier
+          - generic [ref=e181]:
+            - list [ref=e182]:
+              - listitem [ref=e183]:
+                - link " Fashion Supplier" [ref=e184] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_supplier=1&controller=supplier
+            - generic [ref=e187]:
+              - generic [ref=e188] [cursor=pointer]: All suppliers
+              - combobox [ref=e189]:
+                - option "All suppliers" [selected]
+                - option "Fashion Supplier"
+      - generic [ref=e190]:
+        - heading "Search \"dress\" 7 results have been found." [level=1] [ref=e191]:
+          - text: Search
+          - generic [ref=e192]: "\"dress\""
+          - generic [ref=e193]: 7 results have been found.
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - list [ref=e196]:
+              - listitem [ref=e197]: "View:"
+              - listitem [ref=e198]:
+                - link " Grid" [ref=e199]:
+                  - /url: "#"
+                  - generic [ref=e200]: 
+                  - text: Grid
+              - listitem [ref=e201]:
+                - link " List" [ref=e202] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e203] [cursor=pointer]: 
+                  - text: List
+            - generic [ref=e204]:
+              - generic:
+                - generic [ref=e205]: Sort by
+                - generic [ref=e206]:
+                  - generic [ref=e207] [cursor=pointer]: "--"
+                  - combobox "Sort by" [ref=e208]:
+                    - option "--" [selected]
+                    - 'option "Price: Lowest first"'
+                    - 'option "Price: Highest first"'
+                    - 'option "Product Name: A to Z"'
+                    - 'option "Product Name: Z to A"'
+                    - option "In stock"
+                    - 'option "Reference: Lowest first"'
+                    - 'option "Reference: Highest first"'
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - button "Compare (0) " [disabled]:
+                - generic:
+                  - text: Compare (
+                  - strong: "0"
+                  - text: )
+                  - generic: 
+            - generic [ref=e211]: Showing 1 - 7 of 7 items
+        - list [ref=e212]:
+          - listitem [ref=e213]:
+            - generic [ref=e214]:
+              - generic [ref=e216]:
+                - link "Printed Dress" [ref=e217] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_product=4&controller=product&search_query=dress&results=7
+                  - img "Printed Dress" [ref=e218] [cursor=pointer]
+                - text: 
+              - generic [ref=e219]:
+                - heading "Printed Dress" [level=5] [ref=e220]:
+                  - link "Printed Dress" [ref=e221] [cursor=pointer]:
+                    - /url: http://www.automationpractice.pl/index.php?id_product=4&controller=product&search_query=dress&results=7
+                - generic [ref=e223]: $51
+                - list [ref=e225]:
+                  - listitem [ref=e226]:
+                    - link [ref=e227] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=4&controller=product#/size-s/color-beige
+                  - listitem [ref=e228]:
+                    - link [ref=e229] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=4&controller=product#/size-s/color-pink
+                - generic [ref=e231]: Out of stock
+              - text: 
+          - listitem [ref=e232]:
+            - generic [ref=e233]:
+              - generic [ref=e235]:
+                - link "Printed Summer Dress" [ref=e236] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_product=5&controller=product&search_query=dress&results=7
+                  - img "Printed Summer Dress" [ref=e237] [cursor=pointer]
+                - text: 
+              - generic [ref=e238]:
+                - heading "Printed Summer Dress" [level=5] [ref=e239]:
+                  - link "Printed Summer Dress" [ref=e240] [cursor=pointer]:
+                    - /url: http://www.automationpractice.pl/index.php?id_product=5&controller=product&search_query=dress&results=7
+                - generic [ref=e241]:
+                  - generic [ref=e242]: $29
+                  - generic [ref=e243]: $31
+                  - generic [ref=e244]: "-5%"
+                - list [ref=e246]:
+                  - listitem [ref=e247]:
+                    - link [ref=e248] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=5&controller=product#/size-s/color-black
+                  - listitem [ref=e249]:
+                    - link [ref=e250] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=5&controller=product#/size-s/color-orange
+                  - listitem [ref=e251]:
+                    - link [ref=e252] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=5&controller=product#/size-s/color-blue
+                  - listitem [ref=e253]:
+                    - link [ref=e254] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=5&controller=product#/size-s/color-yellow
+                - generic [ref=e256]: Product available with different options
+              - text: 
+          - listitem [ref=e257]:
+            - generic [ref=e258]:
+              - generic [ref=e260]:
+                - link "Printed Dress" [ref=e261] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_product=3&controller=product&search_query=dress&results=7
+                  - img "Printed Dress" [ref=e262] [cursor=pointer]
+                - text: 
+              - generic [ref=e263]:
+                - heading "Printed Dress" [level=5] [ref=e264]:
+                  - link "Printed Dress" [ref=e265] [cursor=pointer]:
+                    - /url: http://www.automationpractice.pl/index.php?id_product=3&controller=product&search_query=dress&results=7
+                - generic [ref=e267]: $26
+                - list [ref=e269]:
+                  - listitem [ref=e270]:
+                    - link [ref=e271] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=3&controller=product#/size-s/color-orange
+                - generic [ref=e273]: Out of stock
+              - text: 
+          - listitem [ref=e274]:
+            - generic [ref=e275]:
+              - generic [ref=e277]:
+                - link "Printed Summer Dress" [ref=e278] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_product=6&controller=product&search_query=dress&results=7
+                  - img "Printed Summer Dress" [ref=e279] [cursor=pointer]
+                - text: 
+              - generic [ref=e280]:
+                - heading "Printed Summer Dress" [level=5] [ref=e281]:
+                  - link "Printed Summer Dress" [ref=e282] [cursor=pointer]:
+                    - /url: http://www.automationpractice.pl/index.php?id_product=6&controller=product&search_query=dress&results=7
+                - generic [ref=e284]: $31
+                - list [ref=e286]:
+                  - listitem [ref=e287]:
+                    - link [ref=e288] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=6&controller=product#/size-s/color-white
+                  - listitem [ref=e289]:
+                    - link [ref=e290] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=6&controller=product#/size-s/color-yellow
+                - generic [ref=e292]: Product available with different options
+              - text: 
+          - listitem [ref=e293]:
+            - generic [ref=e294]:
+              - generic [ref=e296]:
+                - link "Printed Chiffon Dress" [ref=e297] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_product=7&controller=product&search_query=dress&results=7
+                  - img "Printed Chiffon Dress" [ref=e298] [cursor=pointer]
+                - text: 
+              - generic [ref=e299]:
+                - heading "Printed Chiffon Dress" [level=5] [ref=e300]:
+                  - link "Printed Chiffon Dress" [ref=e301] [cursor=pointer]:
+                    - /url: http://www.automationpractice.pl/index.php?id_product=7&controller=product&search_query=dress&results=7
+                - generic [ref=e302]:
+                  - generic [ref=e303]: $16
+                  - generic [ref=e304]: $21
+                  - generic [ref=e305]: "-20%"
+                - list [ref=e307]:
+                  - listitem [ref=e308]:
+                    - link [ref=e309] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=7&controller=product#/size-s/color-green
+                  - listitem [ref=e310]:
+                    - link [ref=e311] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=7&controller=product#/size-s/color-yellow
+                - generic [ref=e313]: Product available with different options
+              - text: 
+          - listitem [ref=e314]:
+            - generic [ref=e315]:
+              - generic [ref=e317]:
+                - link "Faded Short Sleeve T-shirts" [ref=e318] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_product=1&controller=product&search_query=dress&results=7
+                  - img "Faded Short Sleeve T-shirts" [ref=e319] [cursor=pointer]
+                - text: 
+              - generic [ref=e320]:
+                - heading "Faded Short Sleeve T-shirts" [level=5] [ref=e321]:
+                  - link "Faded Short Sleeve T-shirts" [ref=e322] [cursor=pointer]:
+                    - /url: http://www.automationpractice.pl/index.php?id_product=1&controller=product&search_query=dress&results=7
+                - generic [ref=e324]: $17
+                - list [ref=e326]:
+                  - listitem [ref=e327]:
+                    - link [ref=e328] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=1&controller=product#/size-s/color-orange
+                  - listitem [ref=e329]:
+                    - link [ref=e330] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=1&controller=product#/size-s/color-blue
+                - generic [ref=e332]: Out of stock
+              - text: 
+          - listitem [ref=e333]:
+            - generic [ref=e334]:
+              - generic [ref=e336]:
+                - link "Blouse" [ref=e337] [cursor=pointer]:
+                  - /url: http://www.automationpractice.pl/index.php?id_product=2&controller=product&search_query=dress&results=7
+                  - img "Blouse" [ref=e338] [cursor=pointer]
+                - text: 
+              - generic [ref=e339]:
+                - heading "Blouse" [level=5] [ref=e340]:
+                  - link "Blouse" [ref=e341] [cursor=pointer]:
+                    - /url: http://www.automationpractice.pl/index.php?id_product=2&controller=product&search_query=dress&results=7
+                - generic [ref=e343]: $27
+                - list [ref=e345]:
+                  - listitem [ref=e346]:
+                    - link [ref=e347] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=2&controller=product#/size-s/color-white
+                  - listitem [ref=e348]:
+                    - link [ref=e349] [cursor=pointer]:
+                      - /url: http://www.automationpractice.pl/index.php?id_product=2&controller=product#/size-s/color-black
+                - generic [ref=e351]: Product available with different options
+              - text: 
+        - generic [ref=e353]:
+          - generic [ref=e354]:
+            - button "Compare (0) " [disabled]:
+              - generic:
+                - text: Compare (
+                - strong: "0"
+                - text: )
+                - generic: 
+          - generic [ref=e355]: Showing 1 - 7 of 7 items
+  - contentinfo [ref=e357]:
+    - generic [ref=e358]:
+      - generic [ref=e359]:
+        - heading "Newsletter" [level=4] [ref=e360] [cursor=pointer]
+        - generic [ref=e363]:
+          - textbox [ref=e364]: Enter your e-mail
+          - button "" [ref=e365] [cursor=pointer]
+      - generic [ref=e366]:
+        - list [ref=e367]:
+          - listitem [ref=e368]:
+            - link "" [ref=e369] [cursor=pointer]:
+              - /url: http://www.facebook.com/prestashop
+          - listitem [ref=e370]:
+            - link "" [ref=e371] [cursor=pointer]:
+              - /url: http://www.twitter.com/prestashop
+          - listitem [ref=e372]:
+            - link "" [ref=e373] [cursor=pointer]:
+              - /url: http://www.prestashop.com/blog/en/feed/
+        - heading "Follow us" [level=4] [ref=e374] [cursor=pointer]
+      - generic [ref=e376]:
+        - heading "Categories" [level=4] [ref=e377] [cursor=pointer]
+        - list [ref=e380]:
+          - listitem [ref=e381]:
+            - link "Women" [ref=e382] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?id_category=3&controller=category
+      - generic [ref=e383]:
+        - heading "Information" [level=4] [ref=e384] [cursor=pointer]
+        - list [ref=e385]:
+          - listitem [ref=e386]:
+            - link "Our stores" [ref=e387] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=stores
+          - listitem [ref=e388]:
+            - link "Terms and conditions of use" [ref=e389] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?id_cms=3&controller=cms
+          - listitem [ref=e390]:
+            - link "About us" [ref=e391] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?id_cms=4&controller=cms
+      - generic [ref=e393]:
+        - text: © 2014
+        - link "Ecommerce software by PrestaShop™" [ref=e394] [cursor=pointer]:
+          - /url: http://www.prestashop.com
+      - generic [ref=e395]:
+        - heading "My account" [level=4] [ref=e396] [cursor=pointer]:
+          - link "My account" [ref=e397] [cursor=pointer]:
+            - /url: http://www.automationpractice.pl/index.php?controller=my-account
+        - list [ref=e399]:
+          - listitem [ref=e400]:
+            - link "My orders" [ref=e401] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=history
+          - listitem [ref=e402]:
+            - link "My credit slips" [ref=e403] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=order-slip
+          - listitem [ref=e404]:
+            - link "My addresses" [ref=e405] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=addresses
+          - listitem [ref=e406]:
+            - link "My personal info" [ref=e407] [cursor=pointer]:
+              - /url: http://www.automationpractice.pl/index.php?controller=identity
+      - generic [ref=e409]:
+        - heading "Store Information" [level=4] [ref=e410] [cursor=pointer]
+        - list [ref=e411]:
+          - listitem [ref=e412]:
+            - generic [ref=e413]: 
+            - text: My Company, 42 avenue des Champs Elysées 75000 Paris France
+          - listitem [ref=e414]:
+            - generic [ref=e415]: 
+            - text: "Call us now:"
+            - generic [ref=e416]: 0123-456-789
+          - listitem [ref=e417]:
+            - generic [ref=e418]: 
+            - text: "Email:"
+            - link "sales@yourcompany.com" [ref=e420] [cursor=pointer]:
+              - /url: mailto:%73%61%6c%65%73@%79%6f%75%72%63%6f%6d%70%61%6e%79.%63%6f%6d
+```
